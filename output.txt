@@ -1,0 +1,6 @@
+Bar south=Zor
+Jaz
+Vex
+Zor north=Bar
+Zox
+

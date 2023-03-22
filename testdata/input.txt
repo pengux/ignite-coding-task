@@ -1,0 +1,9 @@
+Fex east=Bar west=Jaz
+Bar west=Fex south=Zor east=Qux
+Zor north=Bar west=Baz
+Baz south=Jaz north=Qux east=Zor
+Jaz north=Baz east=Fex
+Qux north=Zox south=Baz west=Bar
+Zox south=Qux east=Xaz
+Xaz west=Zox north=Vex
+Vex south=Xaz
