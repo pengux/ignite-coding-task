@@ -94,7 +94,7 @@ func (c *city) removeAlien(a *alien) {
 }
 
 // reachableFrom returns true if the city is reachable from the destination. It
-// uses a recursive depth first search for the node traversal
+// uses a recursive depth-first search for the node traversal
 func (c *city) reachableFrom(dst *city, visited map[string]bool) bool {
 	if c == dst {
 		return true

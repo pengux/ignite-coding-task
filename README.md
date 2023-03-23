@@ -7,6 +7,7 @@
 - Two cities that are connected to each other must have roads to each other in the opposite directions, e.g. `Foo north=Bar\nBar south=Foo`
 - A city cannot have duplicates in the map input
 - For each iteration, an alien can either move OR stay at the same city. This is to avoid the situation when there are 2 aliens left and each one is in a city that is direct connected to each other, thus making the simulation runs forever.
+- 2 or more aliens could move to the same city and battle. All aliens will die and the city be destroyed as a result.
 
 ## Design choices
 - Input data for the map is accepted through STDIN and the number of aliens for the simulation is expected to be the first argument
